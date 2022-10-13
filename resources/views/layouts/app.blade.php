@@ -28,8 +28,14 @@
 
             <!-- Page Content -->
             <main>
+                @if (session("notification"))
+                <x-notification />
+
+                @endif
                 {{ $slot }}
             </main>
         </div>
+
+        @stack("scripts")
     </body>
 </html>

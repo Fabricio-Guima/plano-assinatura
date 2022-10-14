@@ -5,6 +5,7 @@
         </h2>
     </x-slot>
 
+
     <div class="py-12">
         <section class="text-gray-600 body-font overflow-hidden">
             <div class="container px-5 mx-auto">
@@ -59,3 +60,10 @@
         </section>
     </div>
 </x-app-layout>
+
+
+resposta = fetch("https://rickandmortyapi.com/api/character")
+
+<div>
+    resposta
+</div>

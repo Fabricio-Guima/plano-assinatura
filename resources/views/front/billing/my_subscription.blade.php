@@ -13,9 +13,9 @@
                         <span class="font-semibold title-font text-white">Plano contratado: {{ $subscription }}</span>
                     </div>
                     <div class="md:flex-grow">
-                        {{-- <a href="{{ route('billing.portal') }}"
+                        <a href="{{ route('billing.portal') }}"
                             class="text-white bg-purple-500 border-0 py-2 px-4 focus:outline-none hover:bg-purple-600 rounded">Ver
-                            minha fatura</a> --}}
+                            minha fatura</a>
                     </div>
                 </div>
             </div>

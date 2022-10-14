@@ -12,9 +12,20 @@
 
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
-                        {{ __('Dashboard') }}
-                    </x-nav-link>
+                    <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                        <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
+                            {{ __('Dashboard') }}
+                        </x-nav-link>
+                        <x-nav-link :href="route('billing.payment_method_form')" :active="request()->routeIs('billing.payment_method_form')">
+                            {{ __('Método de pago') }}
+                        </x-nav-link>
+                        <x-nav-link :href="route('billing.plans')" :active="request()->routeIs('billing.plans')">
+                            {{ __('Planos') }}
+                        </x-nav-link>
+                        <x-nav-link :href="route('billing.my_subscription')" :active="request()->routeIs('billing.my_subscription')">
+                            {{ __('Minha assinatura') }}
+                        </x-nav-link>
+                    </div>
                 </div>
             </div>
 

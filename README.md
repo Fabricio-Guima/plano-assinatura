@@ -15,6 +15,9 @@ Sistema de assinatura feito em laravel e com o Cashier abstraindo o stripe. Um u
 - integração com o stripe para sistema de assinaturas
 - routes, model, views, controller, migrations
 - middlewares
+- proteção de rotas com o auth
+- event
+- listeners
 - webhook para o stripe enviar informações sobre o estado do usuário (cancelou, assinou, reembolsou...)
 - login e autenticação com o breeze
 - tailwindcss

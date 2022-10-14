@@ -25,7 +25,7 @@ Sistema de assinatura feito em laravel e com o Cashier abstraindo o stripe. Um u
 - javascript
 - manipulação da dom para criar os campos do cartão de crédito
 - helpers
-# funcionalidades do usuário: 
+## funcionalidades do usuário: 
 - assinar um plano
 - cancelar um plano
 - fazer upgrade de plano pagando somente a diferença de preço entre os planos

@@ -33,6 +33,6 @@ Sistema de assinatura feito em laravel e com o Cashier abstraindo o stripe. Um u
 - gerar/imprimir/baixar fatura
 - gerar/imprimir/baixar recibos
 - receber email sobre pagamentos, reembolsos e cancelamentos
-- atualizar endereço de cobrança caso compre algo físico
+- atualizar endereço de cobrança e telefone
 
 
